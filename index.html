@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="header">
+        <a href="#sec1" class="hme">Home</a>
+        <a href="#sec2" class="abt">About</a>
+        <a href="#sec3" class="skl">Projects</a>
+        <a href="#sec4" class="pro">Resume</a>
+        <a href="#sec5" class="res">Contact</a>
+        <!-- <a href="#sec6" class="con">Contact</a> -->
+    </div>
+    <div class="first">
+        <section id="sec1" class="cont">
+            <h1>HOME</h1>
+            <div class="name">
+            <h2 class="hell">Hello,my name is 
+                <font size="90">Tushar Patil</font></h2>
+            <p>I am an aspiring Software Engineer and keen interest in solving problems.</p>
+            <a  class='exp' href="#sec2">Explore</a>
+            </div>
+        </section>
+    </div>
+    <section id="sec2" class="cont1">
+        <div class="abtsec">
+            <h1 class="habtm">About Me</h1>
+            <p class="info"><a href="https://github.com/2ushar03?tab=repositories">Check Git</a></p>
+            <div class="tabform">
+                <p class="tab active-link" onclick="opn('skills')">Languages</p>
+                <p class="tab " onclick="opn('exp')">Ratings</p>
+                <p class="tab " onclick="opn('edu')">Hackathons</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Languages</span><br>
+                        <li class="content">
+                                C++(DSA), Python, Java, C, JavaScript, HTML, CSS
+                        </li>
+                    </li>
+                    <li><span>Technologies</span><br>
+                        <li class="content">
+                            React.js , Node.js, Express.js, GitHub, Postman, MySQL, PostgreSQL, Mongo DB
+                        </li>
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="exp">
+                <ul>
+                    <li><span><a href="https://leetcode.com/u/2ushar_03/">LeetCode</a></span><br>
+                        <li class="content">Rating-1628 (Top-19.14%)</li>
+                    </li>
+                    <li><span><a href="https://www.codechef.com/users/tusharp3">Codechef</a></span><br>
+                        <li class="content">Rating-1514 (2 Star)</li>
+                    </li>
+                    
+                    <li><span><a href="https://www.hackerrank.com/profile/2ushar3">HackerRank</a></span><br>
+                        <li class="content">5 Star</li>
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="edu">
+                <ul>
+                    <li><span>Hackathons</span><br>
+                        <li class="content">
+                            Participated in GeekVishwaHackathon
+                        </li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section id="sec3" class="cont2">
+        <div id="Port">
+            <h1 class="habt"></h1>
+            <h1 class="pro-to">My Works</h1>
+            <div class="work-list">
+                <div class="proj">
+                    <img src="./foodord.png">
+                    <div class="projdtl">
+                        <h3>FoodX</h3>
+                        <p>Built using React Js,Mongo DB,Node Js. To purchase food items and have lot of functionalities which include sign in and more</p>
+                        <a href="https://foodxweb.netlify.app"><i class="fa-solid fa-file-arrow-down"></i></a>
+                    </div>
+                </div>
+                <div class="proj">
+                    <img src="./leveluplist.png">
+                    <div class="projdtl">
+                        <h3>LEVEL UP LIST</h3>
+                        <p>It is built using Reactjs and Mongo DB.Used to write the important remarks.</p>
+                        <a href="https://level-up-list.netlify.app/"></a>
+                    </div>
+                </div>
+                <div class="proj">
+                    <img src="./quiz.png">
+                    <div class="projdtl">
+                        <h3>Quiz Website</h3>
+                        <p>It is built using HTML,CSS,JS</p>
+                        <a href="https://2ushar03.github.io/Quiz-Game/"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="sec4" class="cont3">
+        <h1 class="resi">RESUME</h1>
+        <div class="proj">
+            <img id="res" src="./resume.png">
+            <div class="projdtl">
+                <h3>Download</h3>
+                <!-- <p>INFO OF FIRST</p> -->
+                <a class="btn"  href="./Resume.pdf" title="Resume" download></a>
+            </div>
+        </div>
+    </section>
+    <section id="sec5" class="cont4">
+        <h1 class="dial">CONTACT ME</h1>
+        <div class="con">
+            <a href="tel:+919310245043" class="cinfo1">Mobile No</a>
+            <a href="mailto:itusharas0001@gmail.com" class="cinfo2">Gmail Id</a>
+            <a href="https://www.linkedin.com/in/tushar-patil-5315a42b1/" class="cinfo3">Linked In</a>
+            <!-- <a href="#" class="cinfo4">Twitter</a> -->
+        </div>
+    </section>
+    <!-- <section id="sec6" class="cont5">
+        <h1>BLANK</h1>
+    </section> -->
+</body>
+<script src="./index.js"></script>
+</html>
